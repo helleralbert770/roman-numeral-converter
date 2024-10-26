@@ -1,0 +1,148 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header id="header">
+    <img id="header-img" src="logo.png" alt="Product Logo">
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#video" class="nav-link">Video</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="features">
+    <h2>Product Features</h2>
+    <p>Details about the product features go here.</p>
+  </section>
+
+  <section>
+  <h2>Product Video</h2>
+  <video id="video" width="560" height="315" controls>
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email" placeholder="you@example.com" required>
+  <input type="submit" id="submit" value="Submit">
+</form>
+
+  </section>
+
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#header-img {
+  width: 50px;
+  height: auto;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+#features, #video, #contact {
+  padding: 2rem;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type="email"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  padding: 0.5rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 720px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #nav-bar ul {
+    flex-direction: column;
+  }
+
+  iframe {
+    width: 100%;
+  }
+}
+
+
+** end of undefined **
+

@@ -1,0 +1,120 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Навігаційна панель -->
+  <nav id="navbar">
+    <a href="#welcome-section">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#profile-link" target="_blank">Profile</a>
+  </nav>
+
+  <!-- Вітальний розділ -->
+  <section id="welcome-section">
+    <h1>Welcome to My Portfolio</h1>
+  </section>
+
+  <!-- Розділ проектів -->
+  <section id="projects">
+    <div class="project-tile">
+      <a href="https://example.com" target="_blank">Project 1</a>
+    </div>
+    <!-- Додайте більше проектів за потреби -->
+  </section>
+
+  <!-- Профільний лінк -->
+  <a id="profile-link" href="https://github.com/your-profile" target="_blank">My GitHub Profile</a>
+
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* Скидання стандартних відступів і полів */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Навігаційна панель */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  z-index: 1000; /* Щоб панель завжди була зверху */
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+/* Вітальний розділ */
+#welcome-section {
+  height: 100vh; /* Висота дорівнює висоті демонстраційного вікна */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+#welcome-section h1 {
+  margin: 0;
+}
+
+/* Розділ проектів */
+#projects {
+  padding: 20px;
+}
+
+.project-tile {
+  margin: 20px 0;
+}
+
+.project-tile a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Посилання на профіль */
+#profile-link {
+  display: block;
+  margin: 20px;
+  text-align: center;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+/* Медіазапит для адаптивного дизайну */
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+  }
+
+  #navbar a {
+    margin: 10px 0;
+  }
+}
+
+
+** end of undefined **
+

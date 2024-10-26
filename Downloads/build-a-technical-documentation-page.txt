@@ -1,0 +1,93 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Documentation-page</title>
+<main id="main-doc">
+   <link rel="stylesheet" href="./styles.css">
+  <section class="main-section" id="HTML">
+    <header>
+     <h2>HTML</h2>
+    </header>
+  </section>
+  <section class="main-section" id="CSS">
+    <header>
+      <h2>CSS</h2>
+      <p></p>
+    <p></p>
+    <p></p>
+    </header>
+  </section>
+  <section class="main-section" id="JavaScript">
+    <header>
+      <h2>JavaScript</h2>
+      <p></p>
+      <code></code>
+      <li></li>
+    <p></p>
+    <code></code>
+    <li></li>
+    <p></p>
+    <code></code>
+    <li></li>
+    </header>
+  </section>
+  <section class="main-section" id="Python">
+    <header>
+      <h2>Python</h2>
+      <p></p>
+      <code></code>
+      <li></li>
+    <p></p>
+    <code></code>
+    <li></li>
+    <p></p>
+    </header>
+  </section>
+  <section class="main-section" id="SQL">
+    <header>
+      <h2>SQL</h2>
+      <p></p>
+    </header>
+    <nav id="navbar">
+     <header>
+    
+   
+  <a class="nav-link" href="#HTML">HTML</a>
+  <a class="nav-link" href="#CSS">CSS</a>
+  <a class="nav-link" href="#JavaScript">JavaScript</a>
+  <a class="nav-link" href="#Python">Python</a>
+  <a class="nav-link" href="#SQL">SQL</a>
+    </nav>
+    </header>
+    
+  </section>
+  
+</main>
+
+** end of undefined **
+
+** start of undefined **
+
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; 
+  height: 100%; 
+  background-color: #fff; 
+  border-right: 1px solid #ccc; 
+  overflow-y: auto; 
+}
+@media (max-width: 768px) {
+  #navbar {
+    width: 100%; 
+    height: auto; 
+    border-right: none; 
+  }
+}
+
+** end of undefined **
+
